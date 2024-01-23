@@ -61,7 +61,7 @@ public class ShapeFactory {
                 this.stroke = new BasicStroke(7.0F);
                 break;
             case 7:
-                this.paint = new GradientPaint((float)(-this.width), (float)(-this.height), Color.white, (float)this.width, (float)this.height, Color.gray, true);
+                this.paint = new GradientPaint((float)(-this.width), (float)(-this.height), Color.red, (float)this.width, (float)this.height, Color.red, true);
                 break;
             case 8:
                 this.paint = Color.red;

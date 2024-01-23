@@ -1,15 +1,10 @@
 package main.java;
 
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Insets;
-import java.awt.RenderingHints;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.geom.AffineTransform;
-import javax.swing.JPanel;
-import javax.swing.Timer;
 
 public class TitlesPanel extends JPanel implements ActionListener {
     private Graphics2D g2d;
